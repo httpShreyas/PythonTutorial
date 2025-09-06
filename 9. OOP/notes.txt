@@ -1,0 +1,7 @@
+Each object is an instance of a particular type 
+Everytime we create an integer, we are creating an instance of type integerr
+And vice versa 
+
+Methods are ways that you interact with an object
+
+#Suppose we are having multiple objects that have to be included in the class rectangle and circle

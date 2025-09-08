@@ -2,6 +2,7 @@ name = "Shreyas"
 #The counting of characters in any language starts with 0
 #Example: 's' is the 0th character
 
+
 ''' The last s is the -1st character 
     The a is the -2nd character of the string
     '''
@@ -27,3 +28,8 @@ word = "Amazing"
 print(word[1:6:2]) #gives output <mzn>
 #The third number indicates the number of steps
 
+'''PROPERTIES OF A STRING
+IMMUTABLE: cannot be changed after creation, returns copies while running funcions on it
+ORDERED: Are Indexed
+ITERABLE: can loop over characters
+ '''

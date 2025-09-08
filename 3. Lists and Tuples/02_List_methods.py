@@ -26,7 +26,12 @@ print(lst)
 print(lst.count("banana"))
 #Counts all occurences 
 
-lst.reverse()
+rev_lst = lst.reverse()
+print(rev_lst)
 #Reverses
 
 
+
+#LIST SLICING 
+sliced_lst = lst[1 : 5]
+print(sliced_lst)

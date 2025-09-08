@@ -1,21 +1,32 @@
-list1 = ["apple","banana", False, 23,23.4, "Shreyas", "Rohan"]
-print(list1)
+lst = ["apple","apple","banana","banana","banana", False, 23,23.4, "Shreyas", "Rohan"]
 
-list1.append("Harry") #Adds the element at the end
-print(list1)
+print(lst)
 
-list1.insert(3,333) #Insert 3333 such that its index is three
-print(list1)
 
-list1.pop(3) #Removes the index in list and prints it on terminal
+lst.append("3")
+print(lst)
+#Adds the given item at the end of the list.
 
-list2 = [10,32,24,543,5432,2,334,43,432]
+lst.extend([3,4,5,6])
+print(lst)
+#This is used to add multiple items to a list
 
-list2.sort()  #Ascending order
-print(list2)
+lst.insert(3,"cherry")
+print(lst)
+#Inserts the item at a given index, Note: always specify the index first then the item
 
-list2.reverse() #Reverses the original order of the list
-print(list2)
+lst.remove(3)
+print(lst)
+#This removes the first occurence of the specified item
 
-#To find the number of elements in a list, use the <len> function
+lst.pop(5)
+print(lst)
+#It returns the removed item
+
+print(lst.count("banana"))
+#Counts all occurences 
+
+lst.reverse()
+#Reverses
+
 

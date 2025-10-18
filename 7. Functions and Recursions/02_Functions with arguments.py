@@ -1,6 +1,6 @@
 def goodday(name, ending):
     print(f'Good day {name}')
-    return "okay" #Whatever value is assigned to the return value, it will assign it.
+    return "okay" #Whatever value is assigned to the return value, it will return it.
 
 
 a = goodday("Shreyas", "Thanks")

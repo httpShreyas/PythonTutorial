@@ -1,4 +1,6 @@
-This repo contains all the practise code and notes that I have taken while learning python from various sources online. 
+This repo documents my learning progress right from a beginer. 
 <br>
-Sources are listed below 
+It is a collection of the notes, example codes, error solutions, and projects that I have completed through the timeline.
+With sources ranging from the python documentation, youtube videos, github repositories and college lectures.
 <br>
+The work is in progress, the quality of notes, codes, key points and projects will gradually improve with time.

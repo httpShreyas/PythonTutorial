@@ -38,8 +38,7 @@ def determine_winner(user_choice, comp):
 def play_game():
     while True:
         user_choice = get_user_choice()
-        if user_choice == None:
-            break
+        if user_choice == None: break
         comp = r.randint(1,3)
 
         display_choices(user_choice, comp)

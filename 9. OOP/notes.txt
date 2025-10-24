@@ -5,3 +5,7 @@ And vice versa
 Methods are ways that you interact with an object
 
 #Suppose we are having multiple objects that have to be included in the class rectangle and circle
+
+
+Abstraction: hiding the implementation details and only displaying the important details to the user
+

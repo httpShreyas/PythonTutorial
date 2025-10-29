@@ -5,17 +5,17 @@ marks = {
     "Sandesh": 80
 
 }
-print(marks.keys())  #eg Shreyas
+#Adding a pair: 
+marks["Raj"] = 43
+marks.keys()  #eg Shreyas
 
-print(marks.values())   #eg 70
-
-print(marks)
+marks.values()   #eg 70
 
 marks.update({"Shreyas": 100, "sudarshan": 100})  #Use curled brackets for dictionaries
 #Can also be used to add new keys and values
 
 
-#print(marks.get["Shreyas2"]) #Prints none
-# print(marks["shreyas2"]) #Gives an error
+#(marks.get["Shreyas2"]) #Prints none
+# (marks["shreyas2"]) #Gives an error
 
-print(marks.get('sandesh'))
+(marks.get('sandesh'))

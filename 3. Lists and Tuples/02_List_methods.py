@@ -30,7 +30,9 @@ rev_lst = lst.reverse()
 print(rev_lst)
 #Reverses
 
+#lst.sort() is used to sort a list of numbers. It changes the original list 
 
+#new = lst.sorted(): makes a new list that is sorted..
 
 #LIST SLICING 
 sliced_lst = lst[1 : 5]

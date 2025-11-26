@@ -4,7 +4,7 @@
 
 #This is called as the function definition 
 def avg():
-    a = int(input("Enter your number:"))
+    a =  int(input("Enter your number:"))
     b =  int(input("Enter your number:"))
     c =  int(input("Enter your number:"))
     average = (a+b+c)/3

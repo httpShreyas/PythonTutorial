@@ -3,6 +3,7 @@ def goodday(name, ending):
     return "okay" #Whatever value is assigned to the return value, it will return it.
 
 
+
 a = goodday("Shreyas", "Thanks")
 b = goodday("Harry", "Thankyou")
 
@@ -10,15 +11,18 @@ print(a)
 print(b)
 
 #Arbitraty arguments 
-def arb(*name):
-    print("The name of the student is: ", name[0])
-
-arb("shreyas", "sandesh")
+#Any number of positional arguments can be passed, the arguments are packed into a tuple 
 
 
+def arb(*nums):
+    print(nums)
 
-#KEYWORD ARGUMENTS 
-def keyword(child3, child2, child1):
-    print("The youngest child is ", child1)
+arb(2,22,24,1,4,3,2)
 
-keyword(child1="shreyas", child2="Sudarshan", child3= "raj") 
+#KEYWORD arguments: Any no of arguments can be passed, packed into a dictionary
+
+def kwarg(**Grade):
+    print(Grade)
+
+
+kwarg(a = 90, b=80, c =70 , d =50)

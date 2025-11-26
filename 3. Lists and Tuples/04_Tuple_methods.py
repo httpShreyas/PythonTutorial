@@ -9,3 +9,6 @@ print(45 in a) #Gives a boolean, used to check presence
 print(len(a)) #Gives the total number of elements present in a tuple
 
 a.index("Rohan") #Gives the index of the first occurence of the given arg 
+
+
+8591861442

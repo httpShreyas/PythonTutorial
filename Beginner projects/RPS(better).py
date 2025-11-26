@@ -1,6 +1,10 @@
 #This a better, more concise version of the rock paper scissors game with modularization and refactoring.
 #REFACTORING: changing the structure of the code without changing its functionality
 
+
+#Notes, for programs involving more objects, use winning combos in tuples
+
+
 import random as r 
 dict = {
     1 : 'rock',
@@ -28,12 +32,12 @@ def display_choices(user_choice, comp):
 
 
 def determine_winner(user_choice, comp):
-   if (user_choice == comp):
-       print("It's a draw")
-   elif (user_choice == 1 and comp ==3 ) or (user_choice == 2 and comp == 1 ) or (user_choice ==3 and comp ==2):
-       print("You win")
-   elif (user_choice ==1 and comp ==2) or (user_choice ==2 and comp == 1) or (user_choice ==3 and comp ==1 ):
-       print("You lose")
+    if (user_choice == comp):
+        print("It's a draw")
+    elif (user_choice == 1 and comp ==3 ) or (user_choice == 2 and comp == 1 ) or (user_choice ==3 and comp ==2):
+        print("You win")
+    elif (user_choice ==1 and comp ==2) or (user_choice ==2 and comp == 1) or (user_choice ==3 and comp ==1 ):
+        print("You lose")
 
 def play_game():
     while True:

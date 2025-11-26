@@ -8,7 +8,7 @@ name = "Shreyas"
     '''
 nameshort = name[0:3] #Start from index 0 all the way till 3 excluding 3
 character1 = name[1]
- 
+
 
 #Negative Slicing
 
@@ -32,4 +32,4 @@ print(word[1:6:2]) #gives output <mzn>
 IMMUTABLE: cannot be changed after creation, returns copies while running funcions on it
 ORDERED: Are Indexed
 ITERABLE: can loop over characters
- '''
+'''
